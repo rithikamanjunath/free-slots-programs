@@ -1,0 +1,81 @@
+hello word
+#include <stdio.h>
+void main(){
+printf("hello");
+}
+
+
+
+
+
+sum
+#include <stdio.h>
+#include <stdlib.h>
+int main(int argc,char* argv[]){
+ int a;
+ int b;
+ int sum;
+ 
+ a= atoi(argv[1]);
+ b= atoi(argv[2]);
+ sum= a+b;
+ printf("sum=%d\n",sum);
+ return 0;
+ }
+ 
+ 
+ 
+ 
+ product
+#include <stdio.h>
+#include <stdlib.h>
+int main(int argc,char* argv[]){
+ int a;
+ int b;
+ int product;
+ 
+ a= atoi(argv[1]);
+ b= atoi(argv[2]);
+ product= a*b;
+ printf("product=%d\n",product);
+ return 0;
+ }
+ 
+ 
+ 
+ Division
+#include <stdio.h>
+#include <stdlib.h>
+int main(int argc,char* argv[]){
+ int a;
+ int b;
+ int product;
+ 
+ a= atoi(argv[1]);
+ b= atoi(argv[2]);
+ product= a/b;
+ printf("product=%d\n",product);
+ return 0;
+ }
+ 
+ 
+ 
+ 
+ subtraction
+ #include <stdio.h>
+#include <stdlib.h>
+int main(int argc,char* argv[]){
+ int a;
+ int b;
+ int sub;
+ 
+ a= atoi(argv[1]);
+ b= atoi(argv[2]);
+ sub= a-b;
+ printf("sub=%d\n",sub);
+ return 0;
+ }
+ 
+ 
+ 
+ 
